@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #e6e6e6a9;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
+  background-color: #F55A5A;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 60px;
+  gap: 8px
 }
 
-.App-link {
-  color: #61dafb;
+.top-info {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  width: 300px;
+  padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.maps {
+  margin: 5px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.local {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 8px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+}
+
+.logo {
+  color: #FFFFFF;
+}
+
+.title-logo {
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.travel-img {
+  width: 180px;
+  float: left;
+  margin-right: 20px;
+}
+
+.icon {
+  width: 15px;
+  margin: 0;
+}
+
+a:link {
+  color: #918E9B;
+}
+
+.date, .place {
+  font-weight: 700;
+}
+
+.place {
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.travel-card {
+  display: inline-block;
+  margin: 10px 50px;
+  white-space: wrap;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.card {
+  max-width: 800px;
+  background-color: #FFFFFF;
+  margin: 10px auto;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+img {
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
