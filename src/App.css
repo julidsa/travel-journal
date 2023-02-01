@@ -77,15 +77,15 @@ a:link {
   padding: 20px;
 }
 
+img {
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
 .card {
   max-width: 800px;
   background-color: #FFFFFF;
   margin: 10px auto;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-img {
-  border-radius: 10px;
-  margin-bottom: 20px;
 }
